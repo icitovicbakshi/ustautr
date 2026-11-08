@@ -1,0 +1,57 @@
+{
+  "players": {
+    "hits": [
+      {
+        "id": "1001",
+        "score": 16000.5,
+        "source": {
+          "id": 1001,
+          "profileId": 9001,
+          "firstName": "Alex",
+          "lastName": "Rivera-Stone ",
+          "playerFirstName": "Alex",
+          "playerLastName": "Rivera-Stone",
+          "displayName": "Alex Rivera-Stone ",
+          "gender": "Male",
+          "age": null,
+          "birthDate": null,
+          "ageRange": "U13",
+          "singlesUtrDisplay": "4.xx",
+          "location": { "display": "Austin, TX", "cityName": "Austin", "stateName": "Texas", "countryName": "United States" },
+          "thirdPartyRankings": []
+        }
+      },
+      {
+        "id": "1002",
+        "score": 5100.2,
+        "source": {
+          "id": 1002,
+          "profileId": 9002,
+          "playerFirstName": "Alexis",
+          "playerLastName": "Klein",
+          "displayName": "Alexis Klein",
+          "singlesUtrDisplay": "15.30",
+          "ratingStatusSingles": "Rated",
+          "gender": "Male",
+          "ageRange": "23-29",
+          "location": { "display": "Slovakia", "cityName": null, "stateName": null, "countryName": "Slovakia" },
+          "thirdPartyRankings": [{ "source": "ATP", "type": "Singles", "rank": 829, "publishedDate": null }]
+        }
+      },
+      {
+        "id": "1003",
+        "score": 4900,
+        "source": {
+          "id": 1003,
+          "playerFirstName": null,
+          "playerLastName": null,
+          "displayName": "Sam Rivera",
+          "gender": null,
+          "ageRange": null,
+          "location": null
+        }
+      },
+      { "id": "broken", "score": 1, "source": null }
+    ]
+  }
+}

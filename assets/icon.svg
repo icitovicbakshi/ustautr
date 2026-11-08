@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <!-- USTA ⇄ UTR: a hard-court tile; the ball crosses the court and comes back. -->
+  <defs>
+    <linearGradient id="ustautr-court" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3d8bff"/>
+      <stop offset="1" stop-color="#1a56d6"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="30" fill="url(#ustautr-court)"/>
+  <!-- Court lines: faint, they read as texture at large sizes and vanish at 16px. -->
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="3">
+    <rect x="20" y="22" width="88" height="84" rx="3"/>
+    <path d="M64 22v84"/>
+  </g>
+  <!-- Out: ball to the far side. -->
+  <g fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 47h44"/>
+    <path d="M82 35l12 12-12 12"/>
+    <!-- Back: to this side. -->
+    <path d="M98 81H34"/>
+    <path d="M46 69 34 81l12 12"/>
+  </g>
+  <!-- The ball. -->
+  <circle cx="33" cy="47" r="12" fill="#dff04a"/>
+  <path d="M25.5 38.5c5 4.5 5 12.5 0 17M40.5 38.5c-5 4.5-5 12.5 0 17" fill="none" stroke="#a9bd1f" stroke-width="2.4" stroke-linecap="round"/>
+</svg>
